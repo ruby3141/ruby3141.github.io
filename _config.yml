@@ -26,7 +26,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 remote_theme: ruby3141/texture
-theme: texture
 plugins:
   - jekyll-feed
 
@@ -43,13 +42,6 @@ texture:
     github: ruby3141
 
 show_excerpts: true
-
-# Because of bug, minima.date_format is used instead of texture.date_format.
-# I submitted a PR about that. This will be removed as soon as the PR is merged.
-# This does not affect github page because it refers ruby3141/texture instead of original author's.
-minima:
-  date_format: "%Y-%m-%d"
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
