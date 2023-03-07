@@ -1,0 +1,72 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: DevRIS Studio
+email: ruby3141@gmail.com
+description: DevRIS Studio, Habitat of CDnX the Pro Sapjiler.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+remote_theme: ruby3141/texture
+theme: texture
+plugins:
+  - jekyll-feed
+
+texture:
+  style: black
+  title: DevRIS Studio
+  tagline: Habitat of CDnX, the Pro Sapjiler.
+  date_format: "%Y-%m-%d"
+  showNav: true
+  navigation:
+    - title: Main Page
+      url: "/"
+  social_links:
+    github: ruby3141
+
+show_excerpts: true
+
+# Because of bug, minima.date_format is used instead of texture.date_format.
+# I submitted a PR about that. This will be removed as soon as the PR is merged.
+# This does not affect github page because it refers ruby3141/texture instead of original author's.
+minima:
+  date_format: "%Y-%m-%d"
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
