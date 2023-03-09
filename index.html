@@ -1,10 +1,93 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Empty Github Page... yet.</title>
+		<title>Devris Studio</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway&Tilt+Warp&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+		<style>
+			body {
+				margin: 0;
+			}
+
+			header {
+				background: linear-gradient(to right, black, black, #ffffff00);
+			}
+
+			#logo {
+				filter: invert(1);
+			}
+			@media (max-width:1116px){
+				#logo {
+					width: 83.33%;
+				}
+			}
+
+			figure {
+				margin: 4em;
+			}
+
+			figcaption {
+				font-family: 'Tilt Warp', cursive;
+				font-size: xx-large;
+			}
+
+			figcaption::after {
+				display: block;
+				content: '';
+				width: 100%;
+				height: 2px;
+				background: linear-gradient(to right, black, black, #ffffff00);
+			}
+
+			figure ul {
+				padding: 0;
+			}
+
+			figure li {
+				font-family: 'Raleway', sans-serif;
+				list-style-type: square;
+				padding-top: 0.5em;
+				padding-bottom: 0.5em;
+			}
+
+			a {
+				color: black;
+			}
+
+			a:hover {
+				color: blue;
+			}
+
+		</style>
 	</head>
 	<body>
-		<h1>Nothing in'ere yet</h1>
-		<span>Visit <a href="https://github.com/ruby3141">here</a> for more info<span>
+		<header>
+			<img id="logo" src="logo.svg" alt="Logo of Devris Studio"/>
+		</header>
+		<figure id="about_me">
+			<figcaption>About Me</figcaption>
+			<ul>
+				<li>Minho Kang / CDnX</li>
+				<li>Resume (N/A for now)</li>
+				<li>Business-unrelated things (N/A for now)</li>
+			</ul>
+		</figure>
+		<figure id="contents">
+			<figcaption>Contents</figcaption>
+			<ul>
+				<li><a href="./blog/">blog</a></li>
+			</ul>
+		</figure>
+		<figure id="contacts">
+			<figcaption>Contacts</figcaption>
+			<ul>
+				<li>Mail: ruby3141 [at] gmail.com</a></li>
+				<li><a href="https://github.com/ruby3141">Github</a></li>
+				<li><a href="https://social.silicon.moe/@ruby3141">Mastodon</a></li>
+				<li><a href="https://twitter.com/ruby3141">Twitter</a></li>
+			</ul>
+		</figure>
 	</body>
 </html>
